@@ -1,0 +1,20 @@
+{
+  "name": "Kingdom Chronicle Wiki",
+  "short_name": "Kingdom Chronicle",
+  "description": "Independent Kingdom Chronicle guides for opening turns, training, diplomacy, war, officers, campaigns and Steam achievements.",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#d7a742",
+  "background_color": "#120f0c",
+  "display": "standalone"
+}
