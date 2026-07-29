@@ -17,6 +17,153 @@ const developerPlaythrough: GuideVideo = {
 
 export const guides: Guide[] = [
   {
+    slug: 'update-1-3-2-in-game-manual',
+    path: '/guides/update-1-3-2-in-game-manual',
+    title: 'Kingdom Chronicle Update 1.3.2',
+    seoTitle: 'Kingdom Chronicle 1.3.2 - In-Game Manual Guide',
+    seoDescription:
+      'Learn where to open the Kingdom Chronicle 1.3.2 manual and what its nine chapters cover, including unit matchups and skill triggers.',
+    summary:
+      'Update 1.3.2 adds an in-game manual with nine chapters, a unit matchup table and a full reference for skill trigger tendencies and effects.',
+    category: 'Updates',
+    difficulty: 'System guide',
+    coverImageUrl: '/kingdomchronicle/screenshots/3.jpg',
+    publishedAt: '2026-07-29',
+    updatedAt: '2026-07-29',
+    sourceStrategy: 'official',
+    sourceNotes:
+      'Summarized from the official Steam v1.3.2 announcement. Exact tables should be read in the current game manual because later balance updates can change them.',
+    videoSearchQueries: [
+      'Kingdom Chronicle 1.3.2 manual',
+      'Kingdom Chronicle unit matchup skill effects',
+    ],
+    tags: ['Update 1.3.2', 'Manual', 'Unit matchups'],
+    relatedRoutes: [
+      '/guides/beginner-guide',
+      '/guides/war-and-reinforcements',
+      '/guides/diplomacy-and-alliances',
+      '/guides/officer-skills',
+    ],
+    body: [
+      {
+        heading: 'Open the manual from the title screen or an active campaign',
+        paragraphs: [
+          'Version 1.3.2 adds a Manual button to the title screen and the in-game menu. That means you can check a rule before starting a campaign or confirm it without abandoning the current turn.',
+          'Use the in-game manual as the authority for exact current values. This wiki can explain decisions and routes, while the bundled reference stays synchronized with the installed build.',
+        ],
+      },
+      {
+        heading: 'Nine chapters cover the full campaign loop',
+        paragraphs: [
+          'The manual explains the game goal and flow, war and reinforcements, domestic affairs, military actions, diplomacy, personnel management and schemes across nine chapters.',
+          'For a first campaign, read the flow chapter before selecting a faction, then keep war, personnel and diplomacy available while planning each turn. This is faster than trying to memorize every command before play begins.',
+        ],
+        bullets: [
+          'Start with game flow and victory conditions.',
+          'Check war and reinforcements before issuing a sortie.',
+          'Use personnel and skill references before assigning an officer.',
+          'Review diplomacy and schemes before committing to a political action.',
+        ],
+      },
+      {
+        heading: 'Use the matchup table and skill trigger list',
+        paragraphs: [
+          'The new manual includes a unit matchup table and a complete list of skill trigger tendencies and effects. Consult the matchup table before comparing raw troop totals, because favorable unit relationships can change which force is actually safer to send.',
+          'For officers, separate a skill’s effect from how often or under what conditions it tends to trigger. Build assignments around both pieces rather than selecting only the largest-looking effect.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Where is the Kingdom Chronicle manual?',
+        answer:
+          'Open Manual from the title screen or from the menu during a campaign on version 1.3.2 or newer.',
+      },
+      {
+        question: 'Does the manual include unit matchups?',
+        answer:
+          'Yes. The official announcement says it includes a unit matchup table.',
+      },
+      {
+        question: 'Does it explain every skill?',
+        answer:
+          'It includes a full list of skill trigger tendencies and effects.',
+      },
+    ],
+  },
+  {
+    slug: 'update-1-3-1-balance-bastion-fix',
+    path: '/guides/update-1-3-1-balance-bastion-fix',
+    title: 'Kingdom Chronicle Update 1.3.1',
+    seoTitle: 'Kingdom Chronicle 1.3.1 - Bastion Fix & Balance',
+    seoDescription:
+      'Review Kingdom Chronicle 1.3.1, including the empty-faction bastion fix and what the unspecified balance adjustment means for current saves.',
+    summary:
+      'Update 1.3.1 removes a faction state that could persist without a monarch or officers while holding a bastion, and applies minor balance adjustments.',
+    category: 'Updates',
+    difficulty: 'Status',
+    coverImageUrl: '/kingdomchronicle/screenshots/3.jpg',
+    publishedAt: '2026-07-28',
+    updatedAt: '2026-07-28',
+    sourceStrategy: 'official',
+    sourceNotes:
+      'Summarized from the official Steam v1.3.1 announcement. The developer does not enumerate the minor balance changes, so this page does not invent affected values.',
+    videoSearchQueries: [
+      'Kingdom Chronicle 1.3.1',
+      'Kingdom Chronicle bastion faction bug',
+    ],
+    tags: ['Update 1.3.1', 'Bastion', 'Balance'],
+    relatedRoutes: [
+      '/guides/casual-difficulty',
+      '/guides/beginner-guide',
+      '/guides/campaigns-and-victory',
+    ],
+    body: [
+      {
+        heading: 'The empty-faction bastion state is fixed',
+        paragraphs: [
+          'A faction could previously continue to exist while holding a bastion even though it had no monarch or officers. Version 1.3.1 removes that specific persistence case.',
+          'On an affected save, advance the game on the updated build and verify that the faction resolves normally. Keep a backup before forcing another succession or bastion change.',
+        ],
+      },
+      {
+        heading: 'Treat balance changes as unspecified',
+        paragraphs: [
+          'The official note says minor balance adjustments were made but does not identify units, factions, costs or difficulty values. Existing strategy pages remain useful, but exact recommendations should be retested on the current build.',
+          'Do not rebuild a campaign solely because of the generic balance line. Compare the same encounter or economy checkpoint first and change the plan only when a measurable difference appears.',
+        ],
+      },
+      {
+        heading: 'Current-save checklist',
+        paragraphs: [
+          'Update before continuing a save with a weakened faction near a bastion. Confirm the faction roster, monarch state, officers and bastion ownership after the next turn.',
+        ],
+        bullets: [
+          'Keep a pre-update backup.',
+          'Advance one turn before judging the fixed faction state.',
+          'Retest exact combat or economy values instead of guessing the hidden balance change.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'What bug does Kingdom Chronicle 1.3.1 fix?',
+        answer:
+          'It fixes a faction that could persist with a bastion despite having no monarch or officers.',
+      },
+      {
+        question: 'Which balance values changed?',
+        answer:
+          'The official announcement only says minor balance adjustments and does not list exact values.',
+      },
+      {
+        question: 'Do I need a new save?',
+        answer:
+          'The notes do not require one. Keep a backup and test the affected state on the updated build first.',
+      },
+    ],
+  },
+  {
     slug: 'beginner-guide',
     path: '/guides/beginner-guide',
     title: 'Kingdom Chronicle Beginner Guide: Your First Winning Campaign',
