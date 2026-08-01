@@ -17,6 +17,88 @@ const developerPlaythrough: GuideVideo = {
 
 export const guides: Guide[] = [
   {
+    slug: 'demo-guide',
+    path: '/guides/demo-guide',
+    title: 'Kingdom Chronicle Demo Guide',
+    seoTitle: 'Kingdom Chronicle Demo - Content, Length & Progress',
+    seoDescription:
+      'See what the free Kingdom Chronicle demo includes, how long Scenario 1 takes, which difficulty to choose and what carries into the full game.',
+    summary:
+      'The free demo gives you the complete first scenario on every difficulty, using the same rules, controls, combat and current balance as the full version.',
+    category: 'Start',
+    difficulty: 'Beginner',
+    coverImageUrl: '/kingdomchronicle/screenshots/3.jpg',
+    publishedAt: '2026-07-31',
+    updatedAt: '2026-07-31',
+    sourceStrategy: 'official',
+    sourceNotes:
+      'Based on the official July 31 Steam demo announcement. The developer estimates Scenario 1 at roughly one to two hours and describes the core rules as stable while UI refinements continue.',
+    videoSearchQueries: [
+      'Kingdom Chronicle demo gameplay',
+      'Kingdom Chronicle scenario 1',
+      'Kingdom Chronicle beginner guide',
+    ],
+    tags: ['Demo', 'Scenario 1', 'Difficulty'],
+    relatedRoutes: [
+      '/guides/beginner-guide',
+      '/guides/casual-difficulty',
+      '/guides/update-1-3-2-in-game-manual',
+      '/download',
+    ],
+    body: [
+      {
+        heading: 'The demo contains the complete first scenario',
+        paragraphs: [
+          'The demo includes Scenario 1 on every difficulty and is expected to take roughly one to two hours. It is meant to demonstrate the real campaign loop rather than a separate tutorial build.',
+          'Use the first run to learn turn flow, officer assignments, diplomacy and when a battle is worth committing to. The full game expands the scenario set, so a decision that works here teaches the system without revealing every campaign.',
+        ],
+      },
+      {
+        heading: 'Choose difficulty for the question you want answered',
+        paragraphs: [
+          'Casual difficulty changes the experience to be easier, while the other difficulty settings let you evaluate the regular pressure more directly. Pick Casual if you mainly want to learn commands and campaign flow; choose a higher setting if you are testing whether the strategic challenge fits you.',
+          'Do not judge every balance value from a Casual run. The demo uses the same current rules and combat model, but the selected difficulty changes how forgiving those systems feel.',
+        ],
+        bullets: [
+          'Casual: learn menus, turn order and basic officer use.',
+          'Standard or above: test economy, combat and recovery pressure.',
+          'Open the in-game manual whenever a matchup or trigger is unclear.',
+        ],
+      },
+      {
+        heading: 'What is shared with the full game',
+        paragraphs: [
+          'The official announcement says the demo uses the same rules, controls, combat and balance as the full game. The full version adds more scenarios rather than replacing the core system you learn here.',
+          'Treat the demo as a compatibility and preference test: confirm input comfort, text readability, performance and whether one complete scenario makes you want a longer campaign.',
+        ],
+      },
+      {
+        heading: 'Expect small UI refinements after the demo release',
+        paragraphs: [
+          'The developer describes the core rules as stable while continuing to refine the interface. That means guide strategy should remain useful, but a button label or menu position may move in a later update.',
+          'Use the current in-game manual for exact control and matchup references, and keep Steam updated before troubleshooting an interface difference shown in an older screenshot.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'How long is the Kingdom Chronicle demo?',
+        answer:
+          'The official announcement estimates roughly one to two hours for Scenario 1.',
+      },
+      {
+        question: 'Which difficulties are available?',
+        answer:
+          'Scenario 1 is available on every difficulty, including the easier Casual option.',
+      },
+      {
+        question: 'Does the demo use different combat rules?',
+        answer:
+          'No. The developer says it uses the same rules, controls, combat and balance as the full game.',
+      },
+    ],
+  },
+  {
     slug: 'update-1-3-2-in-game-manual',
     path: '/guides/update-1-3-2-in-game-manual',
     title: 'Kingdom Chronicle Update 1.3.2',
