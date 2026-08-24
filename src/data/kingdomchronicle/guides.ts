@@ -17,6 +17,88 @@ const developerPlaythrough: GuideVideo = {
 
 export const guides: Guide[] = [
   {
+    slug: 'imperium-mode-guide',
+    path: '/guides/imperium-mode-guide',
+    title: 'Kingdom Chronicle Imperium Mode Guide',
+    seoTitle: 'Kingdom Chronicle Imperium Mode - Declaration & Victory',
+    seoDescription:
+      'Win Kingdom Chronicle Imperium mode by timing the declaration, preparing five marches, assigning lieutenants and unifying before the deadline.',
+    summary:
+      'Version 2.0.0 makes Imperium the default mode and turns the late campaign into a timed unification war after every alliance dissolves.',
+    category: 'Campaigns',
+    difficulty: 'System guide',
+    coverImageUrl: '/kingdomchronicle/screenshots/3.jpg',
+    publishedAt: '2026-08-24',
+    updatedAt: '2026-08-24',
+    sourceStrategy: 'official',
+    sourceNotes:
+      'Built from the official August 19 v2.0.0 Steam announcement. Exact thresholds and the current deadline should be checked in the in-game Imperium manual chapter.',
+    videoSearchQueries: [
+      'Kingdom Chronicle Imperium mode',
+      'Kingdom Chronicle 2.0.0 guide',
+    ],
+    tags: ['Imperium', 'Version 2.0.0', 'Unification'],
+    relatedRoutes: [
+      '/guides/campaigns-and-victory',
+      '/guides/diplomacy-and-alliances',
+      '/guides/war-and-reinforcements',
+      '/guides/officers-and-recruitment',
+    ],
+    body: [
+      {
+        heading: 'Prepare before declaring Imperium',
+        paragraphs: [
+          'Imperium can be declared after your faction becomes a great power while several enemies remain. Do not press the command merely because it appears. Alliances dissolve immediately and no new pacts or overtures can be made, so diplomacy stops being a safety net.',
+          'Before declaring, stock resources, repair weak borders, place dependable officers, and identify the sequence of capitals or regions that can be unified before the deadline.',
+        ],
+        bullets: [
+          'Resolve any alliance-dependent defense before the declaration.',
+          'Prepare enough officers and troops to use several marches at once.',
+          'Keep domestic affairs stable enough to support a compressed war.',
+          'Open the new Imperium manual chapter for the active campaign threshold.',
+        ],
+      },
+      {
+        heading: 'Use five marches as a coordination limit',
+        paragraphs: [
+          'After declaration, mobilization accelerates and the faction can operate up to five marches. Five weak marches are not automatically better than three supported ones. Assign each march a job: breakthrough, reinforcement denial, cleanup, defense, or surrender pressure.',
+          'Move in a sequence that prevents enemy factions from combining. A march that cuts reinforcement access can create more value than a direct attack that wins one battle but leaves the wider front intact.',
+        ],
+      },
+      {
+        heading: 'Assign lieutenants to the current bottleneck',
+        paragraphs: [
+          'Imperium opens lieutenant seats after declaration. Lieutenants strengthen soldiers and domestic affairs each turn and can be dispatched to battles, so their best use depends on the campaign bottleneck.',
+          'Keep a domestic lieutenant when mobilization is starving the realm; send a battle lieutenant when one decisive fight opens the route to unification. Reassess after each surrender or front collapse.',
+        ],
+      },
+      {
+        heading: 'Treat surrender as saved turns',
+        paragraphs: [
+          'Cornered factions may offer surrender. Under a deadline, accepting a clean surrender can be stronger than spending several turns on a final siege, especially if another enemy is rebuilding elsewhere.',
+          'Check whether the surrender actually improves the route to complete unification. The only post-declaration victory is unification before the deadline, so every decision should be measured in turns saved.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'What happens when I declare Imperium?',
+        answer:
+          'All alliances dissolve, further pacts and overtures are disabled, enemy realms unite against you and complete unification before the deadline becomes the only victory.',
+      },
+      {
+        question: 'How many marches can Imperium use?',
+        answer:
+          'The official v2.0.0 notes say the declared realm can operate up to five marches at once.',
+      },
+      {
+        question: 'Should I declare as soon as the command unlocks?',
+        answer:
+          'Usually no. Stabilize resources, borders, officer assignments and the first attack sequence because diplomacy ends immediately after declaration.',
+      },
+    ],
+  },
+  {
     slug: 'demo-guide',
     path: '/guides/demo-guide',
     title: 'Kingdom Chronicle Demo Guide',

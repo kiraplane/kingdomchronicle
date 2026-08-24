@@ -5,7 +5,7 @@ import type {
   KeywordMatrixItem,
 } from './types';
 
-export const checkedAt = '2026-08-22';
+export const checkedAt = '2026-08-24';
 
 export const siteFacts = {
   siteName: 'Kingdom Chronicle Wiki',
@@ -167,6 +167,14 @@ export const achievements: Achievement[] = [
 ];
 
 export const sources: DataSource[] = [
+  {
+    type: 'official',
+    label: 'Kingdom Chronicle v2.0.0 Imperium update',
+    url: 'https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1841579228662284',
+    checkedAt,
+    confidence: 'high',
+    note: 'Primary August 19 source for Imperium declaration rules, alliance dissolution, the unification deadline, five marches, lieutenants, surrender offers and two new achievements.',
+  },
   {
     type: 'official',
     label: 'Kingdom Chronicle Steam store',
